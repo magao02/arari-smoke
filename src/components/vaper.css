@@ -1,0 +1,25 @@
+.vitrine .acessorio-img-vaper{
+	width: 100%;
+	padding-top: 100%;
+	border: 8px solid white;
+	background-size: 100% 100%;
+
+}
+.vitrine:nth-of-type(1) .acessorio-img-vaper{
+	background-image: url('../assets/skysoloplusazul.jpg');
+}
+.vitrine:nth-of-type(2) .acessorio-img-vaper{
+	background-image: url('../assets/skysoloplusprata.jpg');
+}
+.vitrine:nth-of-type(3) .acessorio-img-vaper{
+	background-image: url('../assets/skysolopluspreto.jpg');
+}
+.vitrine:nth-of-type(4) .acessorio-img-vaper{
+    background-image: url('../assets/skysoloazul.jpg');
+}
+.vitrine:nth-of-type(5) .acessorio-img-vaper{
+	background-image: url('../assets/skysoloprata.jpg');
+}
+.vitrine:nth-of-type(6) .acessorio-img-vaper{
+	background-image: url('../assets/skysolopreto.jpg');
+}

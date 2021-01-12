@@ -1,0 +1,22 @@
+.whats{
+    margin-top: 40px;
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+    display: inline-block;
+}
+.whats a{
+    cursor: pointer;
+}
+.whats img{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    
+}
+.whats h2{
+    margin-left: 20px;
+    font-size: 30px;
+    color:  black;
+    display: inline-block;
+}

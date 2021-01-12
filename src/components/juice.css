@@ -1,0 +1,48 @@
+.vitrine .acessorio-img-juice{
+	width: 100%;
+	padding-top: 100%;
+	border: 8px solid white;
+	background-size: 100% 100%;
+
+}
+.vitrine:nth-of-type(1) .acessorio-img-juice{
+	background-image: url('../assets/arcticlaranja.png');
+}
+.vitrine:nth-of-type(2) .acessorio-img-juice{
+	background-image: url('../assets/arcticmint.png');
+}
+.vitrine:nth-of-type(3) .acessorio-img-juice{
+    background-image: url('../assets/arcticred.png');
+}
+.vitrine:nth-of-type(4) .acessorio-img-juice{
+    background-image: url('../assets/bubbaloouva.jpg');
+}
+.vitrine:nth-of-type(5) .acessorio-img-juice{
+    background-image: url('../assets/coldgrape.png');
+}
+.vitrine:nth-of-type(6) .acessorio-img-juice{
+    background-image: url('../assets/eradogelo.jpg');
+}
+.vitrine:nth-of-type(7) .acessorio-img-juice{
+    background-image: url('../assets/hocuspocus.jpg');
+}
+.vitrine:nth-of-type(8) .acessorio-img-juice{
+    background-image: url('../assets/icemelons.jpg');
+}
+
+.vitrine:nth-of-type(9) .acessorio-img-juice{
+    background-image: url('../assets/4fourfriendsmoscou.jpg');
+}
+.vitrine:nth-of-type(10) .acessorio-img-juice{
+    background-image: url('../assets/4fourfriendssexonthe\ beach.jpg');
+}
+.vitrine:nth-of-type(11) .acessorio-img-juice{
+    background-image: url('../assets/4fourfriendstropicalpunch.jpg');
+}
+.vitrine:nth-of-type(12) .acessorio-img-juice{
+    background-image: url('../assets/4fourfriendschernobyl.jpg');
+}
+.vitrine:nth-of-type(13) .acessorio-img-juice{
+    background-image: url('../assets/4fourfriendsinvernonuclear.jpg');
+}
+
