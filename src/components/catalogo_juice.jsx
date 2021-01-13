@@ -121,7 +121,7 @@ export default function jice(){
 					<div class="vitrine">
 						<div class="acessorio-img-juice" ></div>
 						<div class="acessorio-info">
-							<h2>4friends inverno nuclear</h2>
+							<h2>4friends chernobyl</h2>
 							<h3>40,00 R$</h3>
 							<p>30ml<br></br>3mg, 6mg
 							</p>
@@ -131,7 +131,7 @@ export default function jice(){
 					<div class="vitrine">
 						<div class="acessorio-img-juice" ></div>
 						<div class="acessorio-info">
-							<h2>4friends chernobyl</h2>
+							<h2>4friends inverno nuclear</h2>
 							<h3>40,00 R$</h3>
 							<p>30ml<br></br>3mg, 6mg
 							</p>
