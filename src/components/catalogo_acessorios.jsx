@@ -13,7 +13,7 @@ export default props =>
 			<div class="container">
 				<div class="vitrine-sales">
 					<div class="vitrine">
-						<div class="acessorio-img-vaper" ></div>
+						<div class="acessorio-img-acesso" ></div>
 						<div class="acessorio-info">
 							<h2>coil GT mesh individual</h2>
 							<h3>40,00 R$</h3>
@@ -22,9 +22,9 @@ export default props =>
 						</div>
 					</div>
 					<div class="vitrine">
-						<div class="acessorio-img-vaper" ></div>
+						<div class="acessorio-img-acesso" ></div>
 						<div class="acessorio-info">
-							<h2>coil GT mesh caixa</h2>
+							<h2>coil GT mesh caixa com 3</h2>
 							<h3>120,00 R$</h3>
 							<p>sky solo e sky solo plus<br></br>50w a 90w</p>
 							<a href="#/contatos">mais detalhes</a>
