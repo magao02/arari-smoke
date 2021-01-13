@@ -1,0 +1,13 @@
+.vitrine .acessorio-img-juice{
+	width: 100%;
+	padding-top: 100%;
+	border: 8px solid white;
+	background-size: 100% 100%;
+
+}
+.vitrine:nth-of-type(2) .acessorio-img-vaper{
+	background-image: url('../assets/coil\ 2.jpg');
+}
+.vitrine:nth-of-type(1) .acessorio-img-vaper{
+	background-image: url('../assets/coil\ 3.jpg');
+}

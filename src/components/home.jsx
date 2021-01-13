@@ -9,6 +9,7 @@ import fumaca from '../assets/fumaca.jpg'
 import juice from '../assets/vapeteste.jpg'
 import Homevapers from '../assets/imgvapers.jpeg'
 import newJuices from '../assets/newjuice.jpeg'
+import acessorios from '../assets/acessorio.jpeg'
 //import vapers from '../catalogo/vapers';
 
 
@@ -29,6 +30,10 @@ export default props =>
         </div>
         <div class="vapes">
             <a href="#/juices"><img alt="juice" src={newJuices}></img></a>
+            
+        </div>
+        <div class="vapes">
+            <a href="#/acessorios"><img alt="acessorios" src={acessorios}></img></a>
             
         </div>
         </section>

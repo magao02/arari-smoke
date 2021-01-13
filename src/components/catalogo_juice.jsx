@@ -93,7 +93,7 @@ export default function jice(){
 						<div class="acessorio-info">
 							<h2>4friends moscou</h2>
 							<h3>40,00 R$</h3>
-							<p>30ml<br></br>Sem nicotina
+							<p>30ml<br></br>3mg, 6mg
 							</p>
 							<a href="#/contatos">mais detalhes</a>
 						</div>
@@ -103,7 +103,7 @@ export default function jice(){
 						<div class="acessorio-info">
 							<h2>4friends sex on the beach</h2>
 							<h3>40,00 R$</h3>
-							<p>30ml<br></br>sem nicotina
+							<p>30ml<br></br>3mg, 6mg
 							</p>
 							<a href="#/contatos">mais detalhes</a>
 						</div>
@@ -113,7 +113,7 @@ export default function jice(){
 						<div class="acessorio-info">
 							<h2>4friends tropical punch</h2>
 							<h3>40,00 R$</h3>
-							<p>30ml<br></br>sem nicotina
+							<p>30ml<br></br>3mg, 6mg
 							</p>
 							<a href="#/contatos">mais detalhes</a>
 						</div>
@@ -121,9 +121,9 @@ export default function jice(){
 					<div class="vitrine">
 						<div class="acessorio-img-juice" ></div>
 						<div class="acessorio-info">
-							<h2>4friends tropical punch</h2>
+							<h2>4friends inverno nuclear</h2>
 							<h3>40,00 R$</h3>
-							<p>30ml<br></br>sem nicotina
+							<p>30ml<br></br>3mg, 6mg
 							</p>
 							<a href="#/contatos">mais detalhes</a>
 						</div>
@@ -131,9 +131,9 @@ export default function jice(){
 					<div class="vitrine">
 						<div class="acessorio-img-juice" ></div>
 						<div class="acessorio-info">
-							<h2>4friends tropical punch</h2>
+							<h2>4friends chernobyl</h2>
 							<h3>40,00 R$</h3>
-							<p>30ml<br></br>sem nicotina
+							<p>30ml<br></br>3mg, 6mg
 							</p>
 							<a href="#/contatos">mais detalhes</a>
 						</div>

@@ -4,6 +4,7 @@ import Home from '../components/home'
 import vapers from '../catalogo/vapers'
 import juices from '../catalogo/juices'
 import contatos from '../components/contatos/contatos'
+import acessorios from '../catalogo/acessorios'
 
 
 export default props =>
@@ -12,6 +13,7 @@ export default props =>
         <Route exact path='/juices' component={juices} />
         <Route exact path='/vapers' component={vapers} />
         <Route exact path='/contatos' component={contatos} />
+        <Route exact path='/acessorios' component={acessorios} />
         <Route path='/insta' component={() => { 
      window.location.href = 'https://www.instagram.com/ararismoke/?hl=en'; 
      return null;

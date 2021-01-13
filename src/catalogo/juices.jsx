@@ -1,6 +1,7 @@
 import React from 'react'
 import Vapers from '../components/catalogo_vaper'
 import Juices from '../components/catalogo_juice'
+import Acessorios from '../components/catalogo_acessorios'
 
 
 import Headerh from '../components/header-home'
@@ -10,6 +11,7 @@ export default props =>
         <Headerh></Headerh>
         <Juices></Juices>
         <Vapers></Vapers>
+		<Acessorios></Acessorios>
         <footer>
 		<div class="container">
 			<nav>

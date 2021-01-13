@@ -8,14 +8,14 @@ import Headerh from '../components/header-home'
 export default props =>
     <div>
         <Headerh></Headerh>
-        <Vapers></Vapers>
+        <Acessorios></Acessorios>
         <Juices></Juices>
-		<Acessorios></Acessorios>
+        <Vapers></Vapers>
         <footer>
 		<div class="container">
 			<nav>
 			<ul>
-				<li><a style={{color: "black"}} href="/">catalogo</a></li>
+				<li><a style={{color: "#7758F8"}} href="/">catalogo</a></li>
 				<li><a href="/contatos">Contato</a></li>
 			</ul>
 		</nav>
