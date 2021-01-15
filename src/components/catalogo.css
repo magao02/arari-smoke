@@ -46,12 +46,7 @@ section.featured-vehicles .container{
 .vitrine:nth-of-type(1) .acessorio-img-vaper{
 	background-image: url('../assets/skysoloplusazul.jpg');
 }
-.acessorio-img{
-	background-image: url('../assets/sky.jpg');
-}
-.acessorio-img-juice{
-	background-image: url('../assets/sky.jpg');
-}
+
 .acessorio-info{
 	text-align: center;
 }
