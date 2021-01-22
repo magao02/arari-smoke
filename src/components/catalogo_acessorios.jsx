@@ -16,7 +16,7 @@ export default props =>
 						<div class="acessorio-img-acesso" ></div>
 						<div class="acessorio-info">
 							<h2>coil GT mesh individual</h2>
-							<h3>40,00 R$</h3>
+							<h3>45,00 R$</h3>
 							<p>sky solo e sky solo plus<br></br>50w a 90w</p>
 							<a href="#/contatos">mais detalhes</a>
 						</div>
