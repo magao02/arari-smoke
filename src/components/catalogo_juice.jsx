@@ -27,7 +27,7 @@ export default function jice(){
 						<div class="acessorio-img-juice" ></div>
 						<div class="acessorio-info">
 							<h2>arctic mint</h2>
-							<h3>40,00 R$</h3>
+							<h3>Indisponível</h3>
 							<p>30ml<br></br>6mg</p>
 							<a href="#/contatos">mais detalhes</a>
 						</div>
@@ -132,7 +132,7 @@ export default function jice(){
 						<div class="acessorio-img-juice" ></div>
 						<div class="acessorio-info">
 							<h2>4friends inverno nuclear</h2>
-							<h3>40,00 R$</h3>
+							<h3>Indisponível</h3>
 							<p>30ml<br></br>3mg, 6mg
 							</p>
 							<a href="#/contatos">mais detalhes</a>
