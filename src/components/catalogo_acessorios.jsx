@@ -30,6 +30,42 @@ export default props =>
 							<a href="#/contatos">mais detalhes</a>
 						</div>
 					</div>
+					<div class="vitrine">
+						<div class="acessorio-img-acesso" ></div>
+						<div class="acessorio-info">
+							<h2>vidro sky solo</h2>
+							<h3>40,00 R$</h3>
+							<p>sky solo<br></br>vaporesso</p>
+							<a href="#/contatos">mais detalhes</a>
+						</div>
+					</div>
+					<div class="vitrine">
+						<div class="acessorio-img-acesso" ></div>
+						<div class="acessorio-info">
+							<h2>vidro sky solo plus, luxe2, luxe-s</h2>
+							<h3>45,00 R$</h3>
+							<p></p>
+							<a href="#/contatos">mais detalhes</a>
+						</div>
+					</div>
+					<div class="vitrine">
+						<div class="acessorio-img-acesso" ></div>
+						<div class="acessorio-info">
+							<h2>vidro pen 22</h2>
+							<h3>35,00 R$</h3>
+							<p></p>
+							<a href="#/contatos">mais detalhes</a>
+						</div>
+					</div>
+					<div class="vitrine">
+						<div class="acessorio-img-acesso" ></div>
+						<div class="acessorio-info">
+							<h2>coil head pen22</h2>
+							<h3>35,00 R$</h3>
+							<p>pen 22</p>
+							<a href="#/contatos">mais detalhes</a>
+						</div>
+					</div>
 				
 				</div>
 			

@@ -11,3 +11,15 @@
 .vitrine:nth-of-type(1) .acessorio-img-acesso{
 	background-image: url('../assets/coil\ 3.jpg');
 }
+.vitrine:nth-of-type(3) .acessorio-img-acesso{
+	background-image: url('../assets/vidro\ sky\ solo.jpg');
+}
+.vitrine:nth-of-type(4) .acessorio-img-acesso{
+	background-image: url('../assets/vidro\ sky\ solo\ plus.jpg');
+}
+.vitrine:nth-of-type(5) .acessorio-img-acesso{
+	background-image: url('../assets/pen22.jpeg');
+}
+.vitrine:nth-of-type(6) .acessorio-img-acesso{
+	background-image: url('../assets/coil\ head\ pen\ 22\ 2.jpg');
+}

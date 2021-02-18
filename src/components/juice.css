@@ -45,4 +45,15 @@
 .vitrine:nth-of-type(13) .acessorio-img-juice{
     background-image: url('../assets/4fourfriendsinvernonuclear.jpg');
 }
-
+.vitrine:nth-of-type(14) .acessorio-img-juice{
+    background-image: url('../assets/arctic_pine.png');
+}
+.vitrine:nth-of-type(15) .acessorio-img-juice{
+    background-image: url('../assets/arctic_apple_modelo_1.png');
+}
+.vitrine:nth-of-type(16) .acessorio-img-juice{
+    background-image: url('../assets/arctic_manga_modelo_1.png');
+}
+.vitrine:nth-of-type(17) .acessorio-img-juice{
+    background-image: url('../assets/strawberry.png');
+}
