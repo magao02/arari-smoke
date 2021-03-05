@@ -19,7 +19,7 @@ export default function jice(){
 						<div class="acessorio-info">
 							<h2>arctic laranja</h2>
 							<h3>40,00 R$</h3>
-							<p>30ml<br></br>3mg</p>
+							<p>30ml<br></br>3mg 6mg</p>
 							<a href="#/contatos">mais detalhes</a>
 						</div>
 					</div>
@@ -27,7 +27,7 @@ export default function jice(){
 						<div class="acessorio-img-juice" ></div>
 						<div class="acessorio-info">
 							<h2>arctic mint</h2>
-							<h3>Indisponível</h3>
+							<h3>40,00 R$</h3>
 							<p>30ml<br></br>6mg</p>
 							<a href="#/contatos">mais detalhes</a>
 						</div>
@@ -46,7 +46,7 @@ export default function jice(){
 						<div class="acessorio-info">
 							<h2>bubaloo de uva</h2>
 							<h3>40,00 R$</h3>
-							<p>3oml<br></br>3mg, 6mg</p>
+							<p>3oml<br></br>0mg, 3mg, 6mg</p>
 							<a href="#/contatos">mais detalhes</a>
 						</div>
 					</div>
@@ -55,7 +55,7 @@ export default function jice(){
 						<div class="acessorio-info">
 							<h2>cold grape</h2>
 							<h3>40,00 R$</h3>
-							<p>30ml<br></br>3mg</p>
+							<p>30ml<br></br>3mg 6mg</p>
 							<a href="#/contatos">mais detalhes</a>
 						</div>
 					</div>
@@ -73,7 +73,7 @@ export default function jice(){
 						<div class="acessorio-info">
 							<h2>hocus pocus</h2>
 							<h3>40,00 R$</h3>
-							<p>30ml<br></br>6mg
+							<p>30ml<br></br>3mg, 6mg
 							</p>
 							<a href="#/contatos">mais detalhes</a>
 						</div>
@@ -83,7 +83,7 @@ export default function jice(){
 						<div class="acessorio-info">
 							<h2>ice melons</h2>
 							<h3>40,00 R$</h3>
-							<p>30ml<br></br>3mg
+							<p>30ml<br></br>3mg, 6mg
 							</p>
 							<a href="#/contatos">mais detalhes</a>
 						</div>
@@ -153,7 +153,7 @@ export default function jice(){
 						<div class="acessorio-info">
 							<h2>Arctic apple</h2>
 							<h3>40,00 R$</h3>
-							<p>30ml<br></br>3mg
+							<p>30ml<br></br>3mg, 6mg
 							</p>
 							<a href="#/contatos">mais detalhes</a>
 						</div>
@@ -163,7 +163,7 @@ export default function jice(){
 						<div class="acessorio-info">
 							<h2>Arctic mango</h2>
 							<h3>40,00 R$</h3>
-							<p>30ml<br></br>6mg
+							<p>30ml<br></br>3mg 6mg
 							</p>
 							<a href="#/contatos">mais detalhes</a>
 						</div>
