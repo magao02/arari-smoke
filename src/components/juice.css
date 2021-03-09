@@ -29,31 +29,45 @@
 .vitrine:nth-of-type(8) .acessorio-img-juice{
     background-image: url('../assets/icemelons.jpg');
 }
-
 .vitrine:nth-of-type(9) .acessorio-img-juice{
-    background-image: url('../assets/4fourfriendsmoscou.jpg');
-}
-.vitrine:nth-of-type(10) .acessorio-img-juice{
-    background-image: url('../assets/4fourfriendssexonthe\ beach.jpg');
-}
-.vitrine:nth-of-type(11) .acessorio-img-juice{
-    background-image: url('../assets/4fourfriendstropicalpunch.jpg');
-}
-.vitrine:nth-of-type(12) .acessorio-img-juice{
-    background-image: url('../assets/4fourfriendschernobyl.jpg');
-}
-.vitrine:nth-of-type(13) .acessorio-img-juice{
-    background-image: url('../assets/4fourfriendsinvernonuclear.jpg');
-}
-.vitrine:nth-of-type(14) .acessorio-img-juice{
     background-image: url('../assets/arctic_pine.png');
 }
-.vitrine:nth-of-type(15) .acessorio-img-juice{
+.vitrine:nth-of-type(10) .acessorio-img-juice{
     background-image: url('../assets/arctic_apple_modelo_1.png');
 }
-.vitrine:nth-of-type(16) .acessorio-img-juice{
+.vitrine:nth-of-type(11) .acessorio-img-juice{
     background-image: url('../assets/arctic_manga_modelo_1.png');
 }
+.vitrine:nth-of-type(12) .acessorio-img-juice{
+    background-image: url('../assets/strawberry.png');}
+
+.vitrine:nth-of-type(13) .acessorio-img-juice{
+    background-image: url('../assets/4fourfriendsmoscou.jpg');
+}
+.vitrine:nth-of-type(14) .acessorio-img-juice{
+    background-image: url('../assets/4fourfriendssexonthe\ beach.jpg');
+}
+.vitrine:nth-of-type(15) .acessorio-img-juice{
+    background-image: url('../assets/4fourfriendstropicalpunch.jpg');
+}
+.vitrine:nth-of-type(16) .acessorio-img-juice{
+    background-image: url('../assets/4fourfriendschernobyl.jpg');
+}
 .vitrine:nth-of-type(17) .acessorio-img-juice{
-    background-image: url('../assets/strawberry.png');
+    background-image: url('../assets/4fourfriendsinvernonuclear.jpg');
+}
+.vitrine:nth-of-type(18) .acessorio-img-juice{
+    background-image: url('../assets/magnamenthol.jpg');
+}
+.vitrine:nth-of-type(19) .acessorio-img-juice{
+    background-image: url('../assets/caravelaoasis.jpg');
+}
+.vitrine:nth-of-type(20) .acessorio-img-juice{
+    background-image: url('../assets/caravelamango.jpg');
+}
+.vitrine:nth-of-type(21) .acessorio-img-juice{
+    background-image: url('../assets/caravelamelanciaice.jpg');
+}
+.vitrine:nth-of-type(22) .acessorio-img-juice{
+    background-image: url('../assets/caravelalimonada.jpg');
 }

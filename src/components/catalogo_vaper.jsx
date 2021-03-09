@@ -66,6 +66,15 @@ export default props =>
 							<a href="#/contatos">mais detalhes</a>
 						</div>
 					</div>
+					<div class="vitrine">
+						<div class="acessorio-img-vaper" ></div>
+						<div class="acessorio-info">
+							<h2>Pod Luxe PM40 </h2>
+							<h3> 290,00R$</h3>
+							<p>bateria: 1800 mAh<br></br>capacidade: 2ml</p>
+							<a href="#/contatos">mais detalhes</a>
+						</div>
+					</div>
 				
 				</div>
 			

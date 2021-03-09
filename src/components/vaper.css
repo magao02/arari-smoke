@@ -23,3 +23,6 @@
 .vitrine:nth-of-type(6) .acessorio-img-vaper{
 	background-image: url('../assets/skysolo3.jpeg');
 }
+.vitrine:nth-of-type(7) .acessorio-img-vaper{
+	background-image: url('../assets/luxepm40.jpg');
+}
