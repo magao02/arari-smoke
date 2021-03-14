@@ -3,7 +3,11 @@ import React from 'react'
 import {HashRouter} from 'react-router-dom'
 import $ from 'jquery';
 import Routes from './routes'
-
+$(function(){
+  $('.mensage-button').click(function(){
+    $('.mensage').css('display', 'none')
+  })
+})
 export default props =>
   <HashRouter>
     <div class="mensage">
@@ -19,8 +23,4 @@ export default props =>
     </div>
     <Routes />
   </HashRouter>
-  $(function(){
-    $('.mensage-button').click(function(){
-      $('.mensage').css('display', 'none')
-    })
-  })
+  
