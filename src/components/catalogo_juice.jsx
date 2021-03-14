@@ -32,7 +32,7 @@ for (const [i, product] of nomes4friends.entries()) {
 			<div class="acessorio-img-juice" ></div>
 			<div class="acessorio-info">
 				<h2>{product}</h2>
-				<h3>{valores4friends[i]}</h3>
+				<h3>40,00 R$</h3>
 				<p>30ml<br></br>3MG, 6MG
 				</p>
 				<a href="#/contatos">mais detalhes</a>
