@@ -53,7 +53,24 @@ html,body{
 	line-height: 40px;
 	border-bottom: 3px solid black;
 }
-.mensage a:nth-of-type(2){
+.mensage button{
+	background-color: #5DD134;
+	text-decoration: none;
+	color: white;
+	font-style: italic;
+	font-weight: bold;
+	display: inline-block;
+	text-align: center;
+	margin: 8px auto;
+	margin-right: 10px;
+	margin-top: 20px;
+	height: 50px;
+	width: 150px;
+	font-size: 16px;
+	line-height: 40px;
+	border-bottom: 3px solid black;
+}
+.mensage a:nth-of-type(1){
 	background-color: #EB1D08;
 }
 .mensage-wraper h1{

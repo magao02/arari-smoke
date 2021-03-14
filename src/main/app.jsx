@@ -16,7 +16,7 @@ export default props =>
       olá,cliente ararismoke!
       </h1>
       <h2> Somos uma loja virtual voltada para vendas de produtos de vapes e afins,habitamos em Araripina-pe com o intuito de trazer qualidade e melhor preço da região! Nosso site tem em virtude de atualizar nossos produtos e valores.OBS:Em relação as entregas,nos contate do DM ou wpp para combinar o melhor horário e local!</h2>
-      <a class="mensage-button">Entrar</a>
+      <button  class="mensage-button">Entrar</button>
       <a href="#/sair">Sair</a>
       </div>
       
