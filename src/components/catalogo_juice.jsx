@@ -2,8 +2,63 @@ import React from 'react'
 
 import './catalogo.css'
 import './juice.css'
-
-
+//formantação caravela
+const nomesCaravela=['CARAVELA OASIS','CARAVELA MANGO','CARAVELA MELANCIA ICE',
+'CARAVELA LIMONADA ICE']
+const nicotinaCaravela=['3mg','3mg','0mg','omg']
+const renderezicaoCaravela=[]
+for (const [i, product] of nomesCaravela.entries()) {
+	renderezicaoCaravela.push(
+		<div class="vitrine">
+			<div class="acessorio-img-juice" ></div>
+			<div class="acessorio-info">
+				<h2>{product}</h2>
+				<h3>40,00 R$</h3>
+				<p>30ml<br></br>{nicotinaCaravela[i]}
+				</p>
+				<a href="#/contatos">mais detalhes</a>
+			</div>
+		</div>
+	)
+}
+//
+//formatacao 4friends
+const nomes4friends=['4FRIENDS MOSCOU','4FRIENDS SEX ON THE BEACH','4FRIENDS TROPICAL PUNCH','4FRIENDS CHERNOBYL','4FRIENDS INVERNO NUCLEAR']
+const valores4friends=['Indisponível','Indisponível','40,00 R$','40,00 R$','Indisponível']
+const renderezicao4friends=[]
+for (const [i, product] of nomes4friends.entries()) {
+	renderezicao4friends.push(
+		<div class="vitrine">
+			<div class="acessorio-img-juice" ></div>
+			<div class="acessorio-info">
+				<h2>{product}</h2>
+				<h3>{valores4friends[i]}</h3>
+				<p>30ml<br></br>3MG, 6MG
+				</p>
+				<a href="#/contatos">mais detalhes</a>
+			</div>
+		</div>
+	)
+}
+//
+//formatacao magojuices
+const nomesmago=['ARCTIC LARANJA','ARCTIC MINT','ARCTIC RED','BUBALOO DE UVA','COLD GRAPE','ERA DO GELO','HOCUS POCUS','ICE MELONS','ARCTIC PINE','ARCTIC APPLE','ARCTIC MANGO','STRAWBERRY',]
+const nicotinamago=['3MG 6MG', '6MG','3MG 6MG','0MG 3MG 6MG','3MG 6MG','3MG 6MG','3MG 6MG','3MG 6MG','3MG 6MG','3MG 6MG','3MG 6MG','3MG',]
+const renderezicaomago=[]
+for (const [i, product] of nomesmago.entries()) {
+	renderezicaomago.push(
+		<div class="vitrine">
+			<div class="acessorio-img-juice" ></div>
+			<div class="acessorio-info">
+				<h2>{product}</h2>
+				<h3>40,00 R$</h3>
+				<p>30ml<br></br>{nicotinamago[i]}
+				</p>
+				<a href="#/contatos">mais detalhes</a>
+			</div>
+		</div>
+	)
+}
 export default function jice(){
      return <div>
         <section>
@@ -14,171 +69,8 @@ export default function jice(){
 		<div class="content-sales">
 			<div class="container">
 				<div class="vitrine-sales">
-					<div class="vitrine">
-						<div class="acessorio-img-juice" ></div>
-						<div class="acessorio-info">
-							<h2>arctic laranja</h2>
-							<h3>40,00 R$</h3>
-							<p>30ml<br></br>3mg 6mg</p>
-							<a href="#/contatos">mais detalhes</a>
-						</div>
-					</div>
-					<div class="vitrine">
-						<div class="acessorio-img-juice" ></div>
-						<div class="acessorio-info">
-							<h2>arctic mint</h2>
-							<h3>40,00 R$</h3>
-							<p>30ml<br></br>6mg</p>
-							<a href="#/contatos">mais detalhes</a>
-						</div>
-					</div>
-					<div class="vitrine">
-						<div class="acessorio-img-juice" ></div>
-						<div class="acessorio-info">
-							<h2>arctic red</h2>
-							<h3>40,00 R$</h3>
-							<p>30ml<br></br> 3mg 6mg</p>
-							<a href="#/contatos">mais detalhes</a>
-						</div>
-					</div>
-					<div class="vitrine">
-						<div class="acessorio-img-juice" ></div>
-						<div class="acessorio-info">
-							<h2>bubaloo de uva</h2>
-							<h3>40,00 R$</h3>
-							<p>3oml<br></br>0mg, 3mg, 6mg</p>
-							<a href="#/contatos">mais detalhes</a>
-						</div>
-					</div>
-					<div class="vitrine">
-						<div class="acessorio-img-juice" ></div>
-						<div class="acessorio-info">
-							<h2>cold grape</h2>
-							<h3>40,00 R$</h3>
-							<p>30ml<br></br>3mg 6mg</p>
-							<a href="#/contatos">mais detalhes</a>
-						</div>
-					</div>
-					<div class="vitrine">
-						<div class="acessorio-img-juice" ></div>
-						<div class="acessorio-info">
-							<h2>era do gelo</h2>
-							<h3>40,00 R$</h3>
-							<p>30ml<br></br>3mg, 6mg</p>
-							<a href="#/contatos">mais detalhes</a>
-						</div>
-					</div>
-					<div class="vitrine">
-						<div class="acessorio-img-juice" ></div>
-						<div class="acessorio-info">
-							<h2>hocus pocus</h2>
-							<h3>40,00 R$</h3>
-							<p>30ml<br></br>3mg, 6mg
-							</p>
-							<a href="#/contatos">mais detalhes</a>
-						</div>
-					</div>
-					<div class="vitrine">
-						<div class="acessorio-img-juice" ></div>
-						<div class="acessorio-info">
-							<h2>ice melons</h2>
-							<h3>40,00 R$</h3>
-							<p>30ml<br></br>3mg, 6mg
-							</p>
-							<a href="#/contatos">mais detalhes</a>
-						</div>
-					</div>
-					<div class="vitrine">
-						<div class="acessorio-img-juice" ></div>
-						<div class="acessorio-info">
-							<h2>Arctic pine</h2>
-							<h3>40,00</h3>
-							<p>30ml<br></br>3mg, 6mg
-							</p>
-							<a href="#/contatos">mais detalhes</a>
-						</div>
-					</div>
-					<div class="vitrine">
-						<div class="acessorio-img-juice" ></div>
-						<div class="acessorio-info">
-							<h2>Arctic apple</h2>
-							<h3>40,00 R$</h3>
-							<p>30ml<br></br>3mg, 6mg
-							</p>
-							<a href="#/contatos">mais detalhes</a>
-						</div>
-					</div>
-					<div class="vitrine">
-						<div class="acessorio-img-juice" ></div>
-						<div class="acessorio-info">
-							<h2>Arctic mango</h2>
-							<h3>40,00 R$</h3>
-							<p>30ml<br></br>3mg 6mg
-							</p>
-							<a href="#/contatos">mais detalhes</a>
-						</div>
-					</div>
-					<div class="vitrine">
-						<div class="acessorio-img-juice" ></div>
-						<div class="acessorio-info">
-							<h2>Strawberry</h2>
-							<h3>40,00 R$</h3>
-							<p>30ml<br></br>3mg
-							</p>
-							<a href="#/contatos">mais detalhes</a>
-						</div>
-					</div>
-					<div class="vitrine">
-						<div class="acessorio-img-juice" ></div>
-						<div class="acessorio-info">
-							<h2>4friends moscou</h2>
-							<h3>Indisponível</h3>
-							<p>30ml<br></br>3mg, 6mg
-							</p>
-							<a href="#/contatos">mais detalhes</a>
-						</div>
-					</div>
-					<div class="vitrine">
-						<div class="acessorio-img-juice" ></div>
-						<div class="acessorio-info">
-							<h2>4friends sex on the beach</h2>
-							<h3>Indisponível</h3>
-							<p>30ml<br></br>3mg, 6mg
-							</p>
-							<a href="#/contatos">mais detalhes</a>
-						</div>
-					</div>
-					<div class="vitrine">
-						<div class="acessorio-img-juice" ></div>
-						<div class="acessorio-info">
-							<h2>4friends tropical punch</h2>
-							<h3>40,00 R$</h3>
-							<p>30ml<br></br>3mg, 6mg
-							</p>
-							<a href="#/contatos">mais detalhes</a>
-						</div>
-					</div>
-					<div class="vitrine">
-						<div class="acessorio-img-juice" ></div>
-						<div class="acessorio-info">
-							<h2>4friends chernobyl</h2>
-							<h3>40,00 R$</h3>
-							<p>30ml<br></br>3mg, 6mg
-							</p>
-							<a href="#/contatos">mais detalhes</a>
-						</div>
-					</div>
-					<div class="vitrine">
-						<div class="acessorio-img-juice" ></div>
-						<div class="acessorio-info">
-							<h2>4friends inverno nuclear</h2>
-							<h3>Indisponível</h3>
-							<p>30ml<br></br>3mg, 6mg
-							</p>
-							<a href="#/contatos">mais detalhes</a>
-						</div>
-					</div>
-					
+					{renderezicaomago}
+					{renderezicao4friends}
 					<div class="vitrine">
 						<div class="acessorio-img-juice" ></div>
 						<div class="acessorio-info">
@@ -189,48 +81,7 @@ export default function jice(){
 							<a href="#/contatos">mais detalhes</a>
 						</div>
 					</div>
-					
-					<div class="vitrine">
-						<div class="acessorio-img-juice" ></div>
-						<div class="acessorio-info">
-							<h2>caravela oasis </h2>
-							<h3>40,00 R$</h3>
-							<p>30ml<br></br>3mg
-							</p>
-							<a href="#/contatos">mais detalhes</a>
-						</div>
-					</div>
-					<div class="vitrine">
-						<div class="acessorio-img-juice" ></div>
-						<div class="acessorio-info">
-							<h2>caravela mango </h2>
-							<h3>40,00 R$</h3>
-							<p>30ml<br></br>3mg
-							</p>
-							<a href="#/contatos">mais detalhes</a>
-						</div>
-					</div>
-					<div class="vitrine">
-						<div class="acessorio-img-juice" ></div>
-						<div class="acessorio-info">
-							<h2>caravela melancia ice </h2>
-							<h3>40,00 R$</h3>
-							<p>30ml<br></br>0mg
-							</p>
-							<a href="#/contatos">mais detalhes</a>
-						</div>
-					</div>
-					<div class="vitrine">
-						<div class="acessorio-img-juice" ></div>
-						<div class="acessorio-info">
-							<h2>caravela limonada ice </h2>
-							<h3>40,00 R$</h3>
-							<p>30ml<br></br>0mg
-							</p>
-							<a href="#/contatos">mais detalhes</a>
-						</div>
-					</div>
-
+					{renderezicaoCaravela}
 				</div>
 				<div class="clear"></div>
 		    </div>

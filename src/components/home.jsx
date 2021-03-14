@@ -6,6 +6,7 @@ import Header from '../components/header-home'
 
 import Vapers from '../components/catalogo_vaper'
 import Juices from '../components/catalogo_juice'
+
 import Acessorio from '../components/catalogo_acessorios'
 export default props =>
     <div>

@@ -15,6 +15,10 @@ export default props =>
      window.location.href = 'https://api.whatsapp.com/send?phone=558791714169'; 
      return null;
     }}/>
+    <Route path='/sair' component={() => { 
+     window.location.href = 'https://www.instagram.com/ararismoke/?hl=en'; 
+     return null;
+    }}/>
 
         <Redirect from='*' to="/" />
     </Switch>

@@ -1,6 +1,52 @@
 import React from 'react'
 import './catalogo.css'
 import '../components/acessorio.css'
+ const nomesAcessorios = [
+	 "coil GT mesh individual", 
+ 	'coil GT mesh caixa com 3',
+ 	'vidro sky solo',
+ 	'vidro sky solo plus, luxe2, luxe-s',
+	 'vidro pen 22',
+	'coil head pen22']
+	const valoresacessorios=[
+		'45,00',
+		'120,00',
+		'40,00', 
+		'45,00',
+		'35,00',
+		'35,00',
+	]
+	const descricaoacessorio=[
+		'SKY SOLO E SKY SOLO PLUS',
+		'SKY SOLO E SKY SOLO PLUS',
+		'SKY SOLO',
+		'',
+		'',
+		'',
+
+	]
+	const descricaoacessorioparte2=[
+		'50W A 90W',
+		'50W A 90W',
+		'VAPORESSO',
+		'',
+		'',
+		"",
+
+	]
+	const renderizacao =[]
+	for (const [i, product] of nomesAcessorios.entries()) {
+		
+		renderizacao.push(<div class="vitrine">
+		<div class="acessorio-img-acesso" ></div>
+		<div class="acessorio-info">
+			<h2>{product}</h2>
+			<h3>{valoresacessorios[i]} R$</h3>
+			<p>{descricaoacessorio[i]}<br></br>{descricaoacessorioparte2[i]}</p>
+			<a href="#/contatos">mais detalhes</a>
+		</div>
+	</div>)
+	  }
 export default props =>
     <div>
         
@@ -12,66 +58,15 @@ export default props =>
 		<div class="content-sales">
 			<div class="container">
 				<div class="vitrine-sales">
-					<div class="vitrine">
-						<div class="acessorio-img-acesso" ></div>
-						<div class="acessorio-info">
-							<h2>coil GT mesh individual</h2>
-							<h3>45,00 R$</h3>
-							<p>sky solo e sky solo plus<br></br>50w a 90w</p>
-							<a href="#/contatos">mais detalhes</a>
-						</div>
-					</div>
-					<div class="vitrine">
-						<div class="acessorio-img-acesso" ></div>
-						<div class="acessorio-info">
-							<h2>coil GT mesh caixa com 3</h2>
-							<h3>120,00 R$</h3>
-							<p>sky solo e sky solo plus<br></br>50w a 90w</p>
-							<a href="#/contatos">mais detalhes</a>
-						</div>
-					</div>
-					<div class="vitrine">
-						<div class="acessorio-img-acesso" ></div>
-						<div class="acessorio-info">
-							<h2>vidro sky solo</h2>
-							<h3>40,00 R$</h3>
-							<p>sky solo<br></br>vaporesso</p>
-							<a href="#/contatos">mais detalhes</a>
-						</div>
-					</div>
-					<div class="vitrine">
-						<div class="acessorio-img-acesso" ></div>
-						<div class="acessorio-info">
-							<h2>vidro sky solo plus, luxe2, luxe-s</h2>
-							<h3>45,00 R$</h3>
-							<p></p>
-							<a href="#/contatos">mais detalhes</a>
-						</div>
-					</div>
-					<div class="vitrine">
-						<div class="acessorio-img-acesso" ></div>
-						<div class="acessorio-info">
-							<h2>vidro pen 22</h2>
-							<h3>35,00 R$</h3>
-							<p></p>
-							<a href="#/contatos">mais detalhes</a>
-						</div>
-					</div>
-					<div class="vitrine">
-						<div class="acessorio-img-acesso" ></div>
-						<div class="acessorio-info">
-							<h2>coil head pen22</h2>
-							<h3>35,00 R$</h3>
-							<p>pen 22</p>
-							<a href="#/contatos">mais detalhes</a>
-						</div>
-					</div>
-				
+					{renderizacao}				
 				</div>
+				
 			
+				
 				<div class="clear"></div>
 		    </div>
         </div>
         </section>
        
     </div>
+	
