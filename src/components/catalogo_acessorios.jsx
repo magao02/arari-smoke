@@ -7,7 +7,8 @@ import '../components/acessorio.css'
  	'vidro sky solo',
  	'vidro sky solo plus, luxe2, luxe-s',
 	 'vidro pen 22',
-	'coil head pen22']
+	'coil head pen22',
+	'coil gtx 0.2 mesh']
 	const valoresacessorios=[
 		'45,00',
 		'120,00',
@@ -15,11 +16,13 @@ import '../components/acessorio.css'
 		'45,00',
 		'35,00',
 		'35,00',
+		'40,00',
 	]
 	const descricaoacessorio=[
 		'SKY SOLO E SKY SOLO PLUS',
 		'SKY SOLO E SKY SOLO PLUS',
 		'SKY SOLO',
+		'',
 		'',
 		'',
 		'',
@@ -32,6 +35,7 @@ import '../components/acessorio.css'
 		'',
 		'',
 		"",
+		'45 A 60W'
 
 	]
 	const renderizacao =[]

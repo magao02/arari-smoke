@@ -9,20 +9,26 @@
 	background-image: url('../assets/skysoloplusazul.jpg');
 }
 .vitrine:nth-of-type(2) .acessorio-img-vaper{
-	background-image: url('../assets/skysoloplusprata.jpg');
+	background-image: url('../assets/sky\ solo\ plus\ rainbow\ foto.jpg');
 }
 .vitrine:nth-of-type(3) .acessorio-img-vaper{
-	background-image: url('../assets/skysolopluspreto.jpg');
+	background-image: url('../assets/skysoloplusprata.jpg');
 }
 .vitrine:nth-of-type(4) .acessorio-img-vaper{
-    background-image: url('../assets/skysolo.jpeg');
+	background-image: url('../assets/skysolopluspreto.jpg');
 }
 .vitrine:nth-of-type(5) .acessorio-img-vaper{
-	background-image: url('../assets/skysolo2.jpeg');
+    background-image: url('../assets/skysolo.jpeg');
 }
 .vitrine:nth-of-type(6) .acessorio-img-vaper{
-	background-image: url('../assets/skysolo3.jpeg');
+	background-image: url('../assets/skysolo2.jpeg');
 }
 .vitrine:nth-of-type(7) .acessorio-img-vaper{
+	background-image: url('../assets/skysolo3.jpeg');
+}
+.vitrine:nth-of-type(8) .acessorio-img-vaper{
+	background-image: url('../assets/luxepm40.jpg');
+}
+.vitrine:nth-of-type(9) .acessorio-img-vaper{
 	background-image: url('../assets/luxepm40.jpg');
 }
