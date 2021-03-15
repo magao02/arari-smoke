@@ -2,14 +2,6 @@
     background-color: black;
 }
 
-.slider{
-    width: 100%;
-    max-width: 1200px;
-    position: relative;
-    margin: 0 auto;
-    height: 300px;
-    
-}
 .slider img{
     position: absolute;
     max-width: 100%;
