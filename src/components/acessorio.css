@@ -26,3 +26,9 @@
 .vitrine:nth-of-type(7) .acessorio-img-acesso{
 	background-image: url('../assets/gtx\ coil.png');
 }
+.vitrine:nth-of-type(8) .acessorio-img-acesso{
+	background-image: url('../assets/thumbnail_vape\ band.jpg');
+}
+.vitrine:nth-of-type(9) .acessorio-img-acesso{
+	background-image: url('../assets/caixakoko.jpg');
+}

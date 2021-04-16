@@ -2,7 +2,7 @@ import React from 'react'
 
 import './catalogo.css'
 import './juice.css'
-//formantação caravela
+//formatação caravela
 const nomesCaravela=['CARAVELA OASIS','CARAVELA MANGO','CARAVELA MELANCIA ICE',
 'CARAVELA LIMONADA ICE']
 const nicotinaCaravela=['3mg','3mg','0mg','omg']
@@ -13,7 +13,7 @@ for (const [i, product] of nomesCaravela.entries()) {
 			<div class="acessorio-img-juice" ></div>
 			<div class="acessorio-info">
 				<h2>{product}</h2>
-				<h3>40,00 R$</h3>
+				<h3>45,00 R$</h3>
 				<p>30ml<br></br>{nicotinaCaravela[i]}
 				</p>
 				<a href="#/contatos">mais detalhes</a>
@@ -24,7 +24,7 @@ for (const [i, product] of nomesCaravela.entries()) {
 //
 //formatacao 4friends
 const nomes4friends=['4FRIENDS MOSCOU','4FRIENDS SEX ON THE BEACH','4FRIENDS TROPICAL PUNCH','4FRIENDS CHERNOBYL','4FRIENDS INVERNO NUCLEAR']
-const valores4friends=['40,00 R$','40,00 R$','40,00 R$','40,00 R$','40,00 R$']
+const valores4friends=['45,00 R$','45,00 R$','45,00 R$','45,00 R$','45,00 R$']
 const renderezicao4friends=[]
 for (const [i, product] of nomes4friends.entries()) {
 	renderezicao4friends.push(
@@ -43,7 +43,7 @@ for (const [i, product] of nomes4friends.entries()) {
 //
 //formatacao magojuices
 const nomesmago=['ARCTIC LARANJA','ARCTIC MINT','ARCTIC RED','BUBALOO DE UVA','COLD GRAPE','ERA DO GELO','HOCUS POCUS','ICE MELONS','ARCTIC PINE','ARCTIC APPLE','ARCTIC MANGO','STRAWBERRY',]
-const nicotinamago=['3MG 6MG', '6MG','3MG 6MG','0MG 3MG 6MG','3MG 6MG','3MG 6MG','3MG 6MG','3MG 6MG','3MG 6MG','3MG 6MG','3MG 6MG','3MG',]
+const nicotinamago=['3MG 6MG', 'Indisponivel','3MG 6MG','0MG 3MG 6MG','Indisponivel','3MG 6MG','3MG 6MG','3MG 6MG','3MG 6MG','3MG 6MG','3MG 6MG','Indisponivel',]
 const renderezicaomago=[]
 for (const [i, product] of nomesmago.entries()) {
 	renderezicaomago.push(
@@ -51,7 +51,7 @@ for (const [i, product] of nomesmago.entries()) {
 			<div class="acessorio-img-juice" ></div>
 			<div class="acessorio-info">
 				<h2>{product}</h2>
-				<h3>40,00 R$</h3>
+				<h3>45,00 R$</h3>
 				<p>30ml<br></br>{nicotinamago[i]}
 				</p>
 				<a href="#/contatos">mais detalhes</a>

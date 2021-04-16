@@ -8,7 +8,9 @@ import '../components/acessorio.css'
  	'vidro sky solo plus, luxe2, luxe-s',
 	 'vidro pen 22',
 	'coil head pen22',
-	'coil gtx 0.2 mesh']
+	'coil gtx 0.2 mesh',
+	'vape band',
+	'coil koko']
 	const valoresacessorios=[
 		'45,00',
 		'120,00',
@@ -17,6 +19,8 @@ import '../components/acessorio.css'
 		'35,00',
 		'35,00',
 		'40,00',
+		'15,00',
+		'45,00'
 	]
 	const descricaoacessorio=[
 		'SKY SOLO E SKY SOLO PLUS',
@@ -26,6 +30,8 @@ import '../components/acessorio.css'
 		'',
 		'',
 		'',
+		'protetor de atomizador',
+		'pod koko'
 
 	]
 	const descricaoacessorioparte2=[
@@ -34,8 +40,9 @@ import '../components/acessorio.css'
 		'VAPORESSO',
 		'',
 		'',
-		"",
-		'45 A 60W'
+		'',
+		'45 A 60W',
+		''
 
 	]
 	const renderizacao =[]
